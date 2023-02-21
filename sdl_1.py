@@ -1,14 +1,12 @@
 '''
-Do stuff with vectors. Yeehaw!
+This program allows a user to input vectors in order to 
+1. compute dot products
+2. compute cross products
+3. compute projections
 
-Time spent: 4 hr, 25 mins
-3:51
+Time spent: 4 hr, 52 mins
+4:20
 
-
-Things to add: 
-- Keep negative sign from showing up on projection calculation
-- if the vector input was interrupted by an error, don't append the empty vector to the list of vectors.
-- print vectors fancy
 '''
 
 
@@ -227,7 +225,6 @@ if __name__ == '__main__':
 '''
 NOTES
 
-i am a strong independent WAMAN
 
 youtube.com/watch?v=xECXZ3tyONo
 
