@@ -4,8 +4,9 @@ This program allows a user to input vectors in order to
 2. compute cross products
 3. compute projections
 
-Time spent: 4 hr, 52 mins
-4:20
+Time spent: 4 hr, 54 mins
+7:22
+
 
 '''
 

@@ -39,7 +39,22 @@ def test_compute_cross_product():
         assert compute_cross_product(u=np.array(us[i]), v=np.array(vs[i])) == answers[i]
 
 def test_compute_projection():
-    pass
+    us = [
+        [-7, 0, 2],
+        [4, 4, -40]
+    ]
+    vs = [
+        [4, -8, -2],
+        [40, -1, 0]
+    ]
+
+    answers = [
+        [-32/21, 64/21, 16/21],
+        [6240/1601, -156/1601, 0]
+    ]
+
+    for i in range(len(us)):
+        assert compute_projection(u=np.array(us[i]), v=np.array(vs[i])) == answers[i]
 
 # Call the main function that is part of pytest so that the
 # computer will execute the test functions in this file.
